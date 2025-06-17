@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Use our AI Article Writer to generate SEO-friendly blog posts in seconds. Perfect for US bloggers and marketers.">
+    <title>AI Article Writer</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>AI Article Writer</h1>
+        <p>Write engaging content fast. Powered by AI.</p>
+    </header>
+
+    <main style="padding: 2rem;">
+        <textarea id="prompt" rows="5" placeholder="Enter your topic here..."></textarea>
+        <button onclick="generate()">Generate Article</button>
+        <div id="output" style="margin-top: 1rem;"></div>
+    </main>
+
+    <script>
+        function generate() {
+            const prompt = document.getElementById('prompt').value;
+            // Simulasi AI output
+            document.getElementById('output').innerHTML = `
+                <h3>Generated Article:</h3>
+                <p>This is an article about ${prompt}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>`;
+        }
+    </script>
+
+    <!-- Adsterra -->
+    <div class="ad-banner">
+        <!-- Masukkan kode Adsterra disini -->
+    </div>
+
+    <footer>
+        <p>&copy; 2025 AI Tools Hub | US Focused AI Tools</p>
+    </footer>
+</body>
+</html>
